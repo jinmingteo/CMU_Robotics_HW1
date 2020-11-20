@@ -87,7 +87,7 @@ error [0.009789175108252854, 0.0001914425324580923, 0.002033568404733109, 0.0097
 compute IK angles [-0.0030297283880882844, -0.14218482974022126, 0.5638644778450475, 0.023101730286085805, 3.142540311383821]
 ```
 
-#### Optimal Hyperparameters: **Hyperparameters setting: loops 10000, limit_angle 0.01, alpha 0.1**
+### Optimal Hyperparameters: **Hyperparameters setting: loops 10000, limit_angle 0.01, alpha 0.1**
 ****
 
 ## Jacobian Pseudo-Inverse Approach
