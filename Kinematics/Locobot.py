@@ -148,8 +148,8 @@ class Locobot:
 		print ("Approach:{}".format(approach_name))
 		print ("Hyperparameters setting: loops {}, limit_angle {}, alpha {}".format(loops, limit_angle, alpha))
 		import statistics
-		Err = [abs(item) for item in Err]
-		print ("Total Abs Error: {}, Abs Median Error: {}".format(sum(Err), statistics.median(Err)))
+		abs_Err = [abs(item) for item in Err]
+		print ("Total Abs Error: {}, Abs Median Error: {}".format(sum(abs_Err), statistics.median(abs_Err)))
 		return self.q[0:-1], Err
 
 
